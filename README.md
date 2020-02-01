@@ -32,7 +32,7 @@ Sometimes you can get your customers from comment section, as a lot of people re
 
 - Now click on the new `D` added in the toobar
 
-![install](D:\10111\fiverr_projects\newProjects\DigitalMarketingbot\assets\install.gif)
+![install](./assets/install.gif)
 
 > Installing the bot
 
@@ -48,7 +48,7 @@ Sometimes you can get your customers from comment section, as a lot of people re
 - Hit the start button.
 - This will open a new bot controlled tab, which will comment on videos automatically
 
-![usage](D:\10111\fiverr_projects\newProjects\DigitalMarketingbot\assets\usage.gif)
+![usage](./assets/usage.gif)
 
 > Usage 
 
