@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+
+<body tabindex="1">
+  <div style="text-align:center;margin-top: 5px">
+    <h3 style="margin-top: 15px;padding:5px;">
+      <span>
+        Digital Marketing bot
+      </span>
+    </h3>
+  </div>
+  <div id="content" class="ex-body">
+    <h3 class="title">
+      <span>Search String</span>
+    </h3>
+    <div>
+      <textarea id="keywords" name="name" rows="3"
+        style="margin-left: 29px;font-family: 'Rajdhani', sans-serif!important;"
+        placeholder="Input search string"></textarea>
+    </div>
+    <h4 class="subtitle">
+      <span>Comment: </span>
+    </h4>
+    <div>
+      <textarea id="comment" name="name" rows="3"
+        style="margin-left: 29px;font-family: 'Rajdhani', sans-serif!important;"
+        placeholder="Input comment to post"></textarea>
+    </div>
+    <div>
+      <input id="min_play_time" value="4">
+      <input id="max_play_time" value="6">
+    </div>
+    <h3 class="title">
+      <span>Number of comments: </span>
+    </h3>
+    <div>
+      <input id="comment_cnt" value="10"
+        style="width: 300px;padding: 5px;border: 1px solid #ecf0f1;margin-left: 29px;font-family: 'Rajdhani', sans-serif!important;"
+        type="number">
+    </div>
+    <div style="margin-top: 30px;text-align: center;">
+      <button class="ex-btn" type="button" id="start_btn">
+        <h3 style="font-family: 'Rajdhani', sans-serif!important;">Start Comment</h3>
+      </button>
+      <button disabled style="display:none" class="dis-ex-btn" type="button" id="dis_start_btn">
+        <h3 style="font-family: 'Rajdhani', sans-serif!important;">Start Comment</h3>
+      </button>
+    </div>
+
+  </div>
+
+  <script src="js/jquery-3.4.0.min.js"></script>
+  <script src="js/core.js" charset="utf-8"></script>
+  <script src="js/utils.js" charset="utf-8"></script>
+  <script src="js/main.js" charset="utf-8"></script>
+  <script src="popup.js"></script>
+</body>
+
+</html>
