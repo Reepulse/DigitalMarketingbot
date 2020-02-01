@@ -8,7 +8,7 @@ function nano(t, e) {
 var EX = {};
 EX.ACTIVE = !0;
 var $URL, $PAY_URL, $BACK_URL, ENV = 1,
-    APP_NAME = "youtube_comment_bot",
+    APP_NAME = "digital_marketing_bot",
     APP_ID = "apps_data_server",
     PAY_ID = "stripe_server",
     DATA_ID = "",
@@ -22,9 +22,9 @@ var $URL, $PAY_URL, $BACK_URL, ENV = 1,
         MAX_PLAY_TIME: MAX_PLAY_TIME
     };
 var dev = false;
-$BACK_URL = dev ? "http://localhost:3000/" : "https://www.automarketr.com/";
+$BACK_URL = dev ? "http://localhost:3000/" : "";
 EX.Setting = Setting,
-    1 == ENV ? ($URL = "https://data.emailcollector.me", $PAY_URL = "https://stripe.emailcollector.me") : ($URL = "http://localhost:3310", $PAY_URL = "http://localhost:3210", $PAY_ID = PAY_ID + "_dev");
+    1 == ENV ? ($URL = "", $PAY_URL = "") : ($URL = "http://localhost:3310", $PAY_URL = "http://localhost:3210", $PAY_ID = PAY_ID + "_dev");
 var Event = {};
 Event.GET_COMMENT = "get_comment",
     Event.COMMENT_SEND_START = "comment_send_start",

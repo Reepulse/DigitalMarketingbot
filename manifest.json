@@ -15,9 +15,8 @@
    }],
    "description": "Youtube Auto Comment allows you to automatically post mass comments on YouTube videos.",
    "icons": {},
-   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlR1vTagjYpq8znSuINBu0/qZTAckj9wkGvaz7Cu5Ry77Jc8Og7tZXMpxsDfmHBwzdL2WScKn/ppFjlvOEg0CMh2yih38+DaV4IjWPG5k4QwBGmdDctNyceWPih+X1T/fk/9p5yxkhU6bzmqiDMIrCE65XrPkig35glICmW1coBZ3h7dHYZJX70Buxjvgi7mQwt8VsWzqOQEcHNjoKPnVsMw741aAQy/dJTB6Ab98JFGwdV9dRlQZpKuX+TaQ5Yyc/cgJVzFCeDP0xvsI1V1R9xleJrKudEnDnkXWS+T3lIjidcWiWabSodNlKRgNp/CU1Ose/r+mOgNJa9GJsPZIowIDAQAB",
    "manifest_version": 2,
    "name": "DigitalMarketingBot",
-   "permissions": ["activeTab", "tabs", "declarativeContent", "storage", "https://www.automarketr.com/*"],
-   "version": "1.27"
+   "permissions": ["activeTab", "tabs", "declarativeContent", "storage"],
+   "version": "1.0"
 }
