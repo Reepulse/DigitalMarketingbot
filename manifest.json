@@ -13,7 +13,7 @@
       "js": ["js/jquery-3.4.0.min.js", "js/queryScript.js"],
       "matches": ["https://www.youtube.com/results?search_query*"]
    }],
-   "description": "Youtube Auto Comment allows you to automatically post mass comments on YouTube videos.",
+   "description": "DigitalMarketingBot allows you to advertise your buisness using youtube comments",
    "icons": {},
    "manifest_version": 2,
    "name": "DigitalMarketingBot",
