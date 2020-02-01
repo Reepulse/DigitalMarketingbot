@@ -100,14 +100,10 @@ Popup.prototype.updateChartsNum = function () {
                 t.updateStore()
             },
                 500);
-        //   t.Utils.getUUID(function(e, i) {
-        //       t.Utils.UUID = i,
-        //       t.Utils.isPremium(function(e, i) {
-        //           i || (t.Utils.local().remove(["list"]), t.currentList = "0")
-        //       })
-        //   });
+
     },
     Popup.prototype.start = function () {
+        debugger;
         console.log('start');
         var baseurl = 'https://www.youtube.com/results?search_query=';
         var t = this,
@@ -124,11 +120,11 @@ Popup.prototype.updateChartsNum = function () {
         });
         var comments = this.comment.val().split('\n');
         EX.Utils.isStandard(function (f) {
-            var result = JSON.parse(f);
 
-            if (result.standard == false) {
-                if (comment_cnt > 30)
-                    comment_cnt = 30;
+            if (true) {
+                if (comment_cnt > 30) {
+
+                }
                 if (searchurls.length > 3) {
                     searchurls = searchurls.slice(0, 3);
                 }
